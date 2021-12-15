@@ -1,0 +1,173 @@
+INFO: 2021-12-15 15:39:55,834 Covid data API request
+DEBUG: 2021-12-15 15:39:55,838 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:39:55,927 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG: 2021-12-15 15:39:55,932 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:39:55,987 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+DEBUG: 2021-12-15 15:39:55,993 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:39:56,053 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=csv&page=1 HTTP/1.1" 200 None
+DEBUG: 2021-12-15 15:39:56,057 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:39:56,119 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=csv&page=2 HTTP/1.1" 204 0
+INFO: 2021-12-15 15:39:56,131 Opened covid csv file
+DEBUG: 2021-12-15 15:39:56,135 Starting new HTTPS connection (1): newsapi.org:443
+DEBUG: 2021-12-15 15:39:56,597 https://newsapi.org:443 "GET /v2/everything?apiKey=7a85711125554f4e96297de16e0b3653&q=Covid HTTP/1.1" 200 None
+INFO: 2021-12-15 15:39:56,601 News API request
+DEBUG: 2021-12-15 15:39:56,605 Starting new HTTPS connection (1): newsapi.org:443
+DEBUG: 2021-12-15 15:39:57,070 https://newsapi.org:443 "GET /v2/everything?apiKey=7a85711125554f4e96297de16e0b3653&q=COVID-19 HTTP/1.1" 200 None
+INFO: 2021-12-15 15:39:57,072 News API request
+DEBUG: 2021-12-15 15:39:57,074 Starting new HTTPS connection (1): newsapi.org:443
+DEBUG: 2021-12-15 15:39:57,830 https://newsapi.org:443 "GET /v2/everything?apiKey=7a85711125554f4e96297de16e0b3653&q=coronavirus HTTP/1.1" 200 None
+INFO: 2021-12-15 15:39:57,833 News API request
+INFO: 2021-12-15 15:39:57,836 Covid data API request
+DEBUG: 2021-12-15 15:39:57,838 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:39:57,908 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG: 2021-12-15 15:39:57,913 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:39:57,980 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+DEBUG: 2021-12-15 15:39:57,985 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:39:58,048 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=csv&page=1 HTTP/1.1" 200 None
+DEBUG: 2021-12-15 15:39:58,053 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:39:58,274 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=csv&page=2 HTTP/1.1" 204 0
+INFO: 2021-12-15 15:39:58,285 Opened covid csv file
+INFO: 2021-12-15 15:39:58,287 Covid data API request
+DEBUG: 2021-12-15 15:39:58,289 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:39:58,374 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG: 2021-12-15 15:39:58,379 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:39:58,432 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+DEBUG: 2021-12-15 15:39:58,436 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:39:58,503 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=csv&page=1 HTTP/1.1" 200 None
+DEBUG: 2021-12-15 15:39:58,506 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:39:58,563 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=csv&page=2 HTTP/1.1" 204 0
+INFO: 2021-12-15 15:39:58,576 Opened covid csv file
+DEBUG: 2021-12-15 15:39:58,579 Starting new HTTPS connection (1): newsapi.org:443
+DEBUG: 2021-12-15 15:39:59,031 https://newsapi.org:443 "GET /v2/everything?apiKey=7a85711125554f4e96297de16e0b3653&q=Covid HTTP/1.1" 200 None
+INFO: 2021-12-15 15:39:59,033 News API request
+DEBUG: 2021-12-15 15:39:59,034 Starting new HTTPS connection (1): newsapi.org:443
+DEBUG: 2021-12-15 15:39:59,189 https://newsapi.org:443 "GET /v2/everything?apiKey=7a85711125554f4e96297de16e0b3653&q=COVID-19 HTTP/1.1" 200 None
+INFO: 2021-12-15 15:39:59,193 News API request
+DEBUG: 2021-12-15 15:39:59,196 Starting new HTTPS connection (1): newsapi.org:443
+DEBUG: 2021-12-15 15:39:59,648 https://newsapi.org:443 "GET /v2/everything?apiKey=7a85711125554f4e96297de16e0b3653&q=coronavirus HTTP/1.1" 200 None
+INFO: 2021-12-15 15:39:59,650 News API request
+INFO: 2021-12-15 15:39:59,656  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO: 2021-12-15 15:40:07,355 127.0.0.1 - - [15/Dec/2021 15:40:07] "[32mGET / HTTP/1.1[0m" 302 -
+INFO: 2021-12-15 15:40:07,376 127.0.0.1 - - [15/Dec/2021 15:40:07] "GET /index HTTP/1.1" 200 -
+INFO: 2021-12-15 15:40:07,608 127.0.0.1 - - [15/Dec/2021 15:40:07] "[36mGET /static/images/covid_image.jpg HTTP/1.1[0m" 304 -
+INFO: 2021-12-15 15:40:10,101 Article removed from list
+INFO: 2021-12-15 15:40:10,103 127.0.0.1 - - [15/Dec/2021 15:40:10] "GET /index?notif=Texas+Apple+store+closes+due+to+COVID-19+outbreak HTTP/1.1" 200 -
+INFO: 2021-12-15 15:40:10,118 127.0.0.1 - - [15/Dec/2021 15:40:10] "[36mGET /static/images/covid_image.jpg HTTP/1.1[0m" 304 -
+INFO: 2021-12-15 15:40:10,488 Article removed from list
+INFO: 2021-12-15 15:40:10,490 127.0.0.1 - - [15/Dec/2021 15:40:10] "GET /index?notif=How+Science+Will+Solve+the+Omicron+Variant’s+Mysteries HTTP/1.1" 200 -
+INFO: 2021-12-15 15:40:10,505 127.0.0.1 - - [15/Dec/2021 15:40:10] "[36mGET /static/images/covid_image.jpg HTTP/1.1[0m" 304 -
+INFO: 2021-12-15 15:40:10,878 Article removed from list
+INFO: 2021-12-15 15:40:10,880 127.0.0.1 - - [15/Dec/2021 15:40:10] "GET /index?notif=Covid-19%3A+Ireland+closes+nightclubs+and+tightens+Covid+rules HTTP/1.1" 200 -
+INFO: 2021-12-15 15:40:10,895 127.0.0.1 - - [15/Dec/2021 15:40:10] "[36mGET /static/images/covid_image.jpg HTTP/1.1[0m" 304 -
+INFO: 2021-12-15 15:40:12,371 Article removed from list
+INFO: 2021-12-15 15:40:12,373 127.0.0.1 - - [15/Dec/2021 15:40:12] "GET /index?notif=Teens+Ages+16+and+17+Can+Now+Get+COVID-19+Booster+Shots HTTP/1.1" 200 -
+INFO: 2021-12-15 15:40:12,388 127.0.0.1 - - [15/Dec/2021 15:40:12] "[36mGET /static/images/covid_image.jpg HTTP/1.1[0m" 304 -
+INFO: 2021-12-15 15:40:13,083 Article removed from list
+INFO: 2021-12-15 15:40:13,085 127.0.0.1 - - [15/Dec/2021 15:40:13] "GET /index?notif=Could+Covid+Lead+to+Progress%3F HTTP/1.1" 200 -
+INFO: 2021-12-15 15:40:13,101 127.0.0.1 - - [15/Dec/2021 15:40:13] "[36mGET /static/images/covid_image.jpg HTTP/1.1[0m" 304 -
+INFO: 2021-12-15 15:40:28,239 Covid data and news update scheduled
+INFO: 2021-12-15 15:40:28,245 127.0.0.1 - - [15/Dec/2021 15:40:28] "GET /index?update=15%3A42&two=test&covid-data=covid-data&news=news HTTP/1.1" 200 -
+INFO: 2021-12-15 15:40:28,261 127.0.0.1 - - [15/Dec/2021 15:40:28] "[36mGET /static/images/covid_image.jpg HTTP/1.1[0m" 304 -
+INFO: 2021-12-15 15:40:30,401 127.0.0.1 - - [15/Dec/2021 15:40:30] "GET /index?update_item=test HTTP/1.1" 200 -
+INFO: 2021-12-15 15:40:30,418 127.0.0.1 - - [15/Dec/2021 15:40:30] "[36mGET /static/images/covid_image.jpg HTTP/1.1[0m" 304 -
+INFO: 2021-12-15 15:55:51,678 Covid data API request
+DEBUG: 2021-12-15 15:55:51,682 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:55:51,783 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG: 2021-12-15 15:55:51,788 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:55:51,952 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+DEBUG: 2021-12-15 15:55:51,958 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:55:52,021 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=csv&page=1 HTTP/1.1" 200 None
+DEBUG: 2021-12-15 15:55:52,025 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:55:52,197 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=csv&page=2 HTTP/1.1" 204 0
+INFO: 2021-12-15 15:55:52,209 Opened covid csv file
+DEBUG: 2021-12-15 15:55:52,225 Starting new HTTPS connection (1): newsapi.org:443
+DEBUG: 2021-12-15 15:55:52,821 https://newsapi.org:443 "GET /v2/everything?apiKey=7a85711125554f4e96297de16e0b3653&q=Covid HTTP/1.1" 200 None
+INFO: 2021-12-15 15:55:52,821 News API request
+DEBUG: 2021-12-15 15:55:52,821 Starting new HTTPS connection (1): newsapi.org:443
+DEBUG: 2021-12-15 15:55:53,065 https://newsapi.org:443 "GET /v2/everything?apiKey=7a85711125554f4e96297de16e0b3653&q=COVID-19 HTTP/1.1" 200 None
+INFO: 2021-12-15 15:55:53,065 News API request
+DEBUG: 2021-12-15 15:55:53,080 Starting new HTTPS connection (1): newsapi.org:443
+DEBUG: 2021-12-15 15:55:53,614 https://newsapi.org:443 "GET /v2/everything?apiKey=7a85711125554f4e96297de16e0b3653&q=coronavirus HTTP/1.1" 200 None
+INFO: 2021-12-15 15:55:53,630 News API request
+INFO: 2021-12-15 15:55:53,630 Covid data API request
+DEBUG: 2021-12-15 15:55:53,630 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:55:53,900 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG: 2021-12-15 15:55:53,900 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:55:54,116 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+DEBUG: 2021-12-15 15:55:54,134 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:55:54,331 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=csv&page=1 HTTP/1.1" 200 None
+DEBUG: 2021-12-15 15:55:54,336 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:55:54,500 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=csv&page=2 HTTP/1.1" 204 0
+INFO: 2021-12-15 15:55:54,511 Opened covid csv file
+INFO: 2021-12-15 15:55:54,512 Covid data API request
+DEBUG: 2021-12-15 15:55:54,514 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:55:54,567 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG: 2021-12-15 15:55:54,572 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:55:54,629 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+DEBUG: 2021-12-15 15:55:54,634 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:55:54,693 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=csv&page=1 HTTP/1.1" 200 None
+DEBUG: 2021-12-15 15:55:54,696 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:55:54,753 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=csv&page=2 HTTP/1.1" 204 0
+INFO: 2021-12-15 15:55:54,766 Opened covid csv file
+DEBUG: 2021-12-15 15:55:54,770 Starting new HTTPS connection (1): newsapi.org:443
+DEBUG: 2021-12-15 15:55:55,222 https://newsapi.org:443 "GET /v2/everything?apiKey=7a85711125554f4e96297de16e0b3653&q=Covid HTTP/1.1" 200 None
+INFO: 2021-12-15 15:55:55,238 News API request
+DEBUG: 2021-12-15 15:55:55,238 Starting new HTTPS connection (1): newsapi.org:443
+DEBUG: 2021-12-15 15:55:55,683 https://newsapi.org:443 "GET /v2/everything?apiKey=7a85711125554f4e96297de16e0b3653&q=COVID-19 HTTP/1.1" 200 None
+INFO: 2021-12-15 15:55:55,685 News API request
+DEBUG: 2021-12-15 15:55:55,687 Starting new HTTPS connection (1): newsapi.org:443
+DEBUG: 2021-12-15 15:55:55,823 https://newsapi.org:443 "GET /v2/everything?apiKey=7a85711125554f4e96297de16e0b3653&q=coronavirus HTTP/1.1" 200 None
+INFO: 2021-12-15 15:55:55,826 News API request
+INFO: 2021-12-15 15:55:55,831  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO: 2021-12-15 15:56:03,897 Covid data API request
+DEBUG: 2021-12-15 15:56:03,900 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:56:03,961 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG: 2021-12-15 15:56:03,966 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:56:04,027 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+DEBUG: 2021-12-15 15:56:04,032 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:56:04,093 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=csv&page=1 HTTP/1.1" 200 None
+DEBUG: 2021-12-15 15:56:04,096 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:56:04,151 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=csv&page=2 HTTP/1.1" 204 0
+INFO: 2021-12-15 15:56:04,168 Opened covid csv file
+DEBUG: 2021-12-15 15:56:04,171 Starting new HTTPS connection (1): newsapi.org:443
+DEBUG: 2021-12-15 15:56:04,318 https://newsapi.org:443 "GET /v2/everything?apiKey=7a85711125554f4e96297de16e0b3653&q=Covid HTTP/1.1" 200 None
+INFO: 2021-12-15 15:56:04,321 News API request
+DEBUG: 2021-12-15 15:56:04,321 Starting new HTTPS connection (1): newsapi.org:443
+DEBUG: 2021-12-15 15:56:04,778 https://newsapi.org:443 "GET /v2/everything?apiKey=7a85711125554f4e96297de16e0b3653&q=COVID-19 HTTP/1.1" 200 None
+INFO: 2021-12-15 15:56:04,780 News API request
+DEBUG: 2021-12-15 15:56:04,782 Starting new HTTPS connection (1): newsapi.org:443
+DEBUG: 2021-12-15 15:56:04,914 https://newsapi.org:443 "GET /v2/everything?apiKey=7a85711125554f4e96297de16e0b3653&q=coronavirus HTTP/1.1" 200 None
+INFO: 2021-12-15 15:56:04,916 News API request
+INFO: 2021-12-15 15:56:04,919 Covid data API request
+DEBUG: 2021-12-15 15:56:04,921 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:56:05,238 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG: 2021-12-15 15:56:05,243 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:56:05,455 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+DEBUG: 2021-12-15 15:56:05,455 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:56:05,520 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=csv&page=1 HTTP/1.1" 200 None
+DEBUG: 2021-12-15 15:56:05,520 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:56:05,581 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=csv&page=2 HTTP/1.1" 204 0
+INFO: 2021-12-15 15:56:05,596 Opened covid csv file
+INFO: 2021-12-15 15:56:05,596 Covid data API request
+DEBUG: 2021-12-15 15:56:05,596 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:56:05,659 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG: 2021-12-15 15:56:05,659 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:56:05,895 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+DEBUG: 2021-12-15 15:56:05,895 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:56:05,963 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=csv&page=1 HTTP/1.1" 200 None
+DEBUG: 2021-12-15 15:56:05,967 Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG: 2021-12-15 15:56:06,131 https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=csv&page=2 HTTP/1.1" 204 0
+INFO: 2021-12-15 15:56:06,146 Opened covid csv file
+DEBUG: 2021-12-15 15:56:06,146 Starting new HTTPS connection (1): newsapi.org:443
+DEBUG: 2021-12-15 15:56:06,300 https://newsapi.org:443 "GET /v2/everything?apiKey=7a85711125554f4e96297de16e0b3653&q=Covid HTTP/1.1" 200 None
+INFO: 2021-12-15 15:56:06,300 News API request
+DEBUG: 2021-12-15 15:56:06,300 Starting new HTTPS connection (1): newsapi.org:443
+DEBUG: 2021-12-15 15:56:06,445 https://newsapi.org:443 "GET /v2/everything?apiKey=7a85711125554f4e96297de16e0b3653&q=COVID-19 HTTP/1.1" 200 None
+INFO: 2021-12-15 15:56:06,447 News API request
+DEBUG: 2021-12-15 15:56:06,447 Starting new HTTPS connection (1): newsapi.org:443
+DEBUG: 2021-12-15 15:56:06,933 https://newsapi.org:443 "GET /v2/everything?apiKey=7a85711125554f4e96297de16e0b3653&q=coronavirus HTTP/1.1" 200 None
+INFO: 2021-12-15 15:56:06,949 News API request
+INFO: 2021-12-15 15:56:06,956  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO: 2021-12-15 15:56:34,418 127.0.0.1 - - [15/Dec/2021 15:56:34] "[32mGET / HTTP/1.1[0m" 302 -
+INFO: 2021-12-15 15:56:34,438 127.0.0.1 - - [15/Dec/2021 15:56:34] "GET /index HTTP/1.1" 200 -
+INFO: 2021-12-15 15:56:34,666 127.0.0.1 - - [15/Dec/2021 15:56:34] "[36mGET /static/images/covid_image.jpg HTTP/1.1[0m" 304 -
